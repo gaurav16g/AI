@@ -239,5 +239,5 @@ class AmazonResponseParser:
             elif actionName == 'ListVerifiedEmailAddresses':
                 result = self._parseListVerifiedEmails(actionName, xmlResponse)                
             else:
-                raise AmazonAPIError('Action %s is not supported. Please contact: vladimir@tagmask.com' % (actionName,))
+                raise AmazonAPIError('Action %s is not supported. Please contact: test@test.test' % (actionName,))
         return result
